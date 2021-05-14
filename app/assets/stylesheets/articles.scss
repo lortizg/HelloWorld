@@ -1,0 +1,132 @@
+// Place all the styles related to the Articles controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+
+.cabecera {
+  text-align: center;
+  height: 35%;
+  display: flex;
+  flex-wrap:wrap;
+  justify-content: space-between;
+  background-color: navy;
+  padding: 1%;
+}
+.cabecera a{
+  color:white;
+}
+h1{
+  //top:5%;
+  text-align: center;
+  //padding: 1%;
+  //background-color: navy;
+  //width: 98%;
+  font-family: sans-serif;
+  color: white;
+  margin-right: 15%;
+}
+
+h2{
+  text-align: center;
+  //padding: 1%;
+  //margin-bottom: 10%;
+  margin-top: 0%;
+}
+
+.timeline{
+  margin-left: 20%;
+  //background-color: lightblue;
+  margin-right: 20%;
+  //padding: 5%;
+}
+.GrupoPosts{
+
+  border-style: ridge;
+  overflow: scroll;
+  height: 470px;
+  padding: 1%;
+}
+.AbajoPost{
+  display: flex;
+  flex-wrap:wrap;
+  justify-content: space-between;
+}
+hr{
+  margin-bottom: 5%;
+}
+.likes p{
+  line-height: 20px;
+}
+.likes img{
+  vertical-align: middle;
+  width: 50px;
+}
+.post{
+  font-family: sans-serif;
+}
+.comentario{
+  font-size: 18px;
+}
+
+footer p{
+  background-color: navy;
+  font-family: sans-serif;
+  text-align: center;
+  font-size: 14px;
+  padding: 10px;
+  color:white;
+}
+
+
+form {
+  box-sizing: border-box;
+  // position: absolute;
+   margin-top: 2%;
+  // left: 5%;
+}
+
+/* Style the search field */
+form.example input[type=text] {
+  padding: 10px;
+  font-size: 17px;
+  border: 2px solid black;
+  //border-radius: 8px;
+  border-right: none;
+  float: left;
+  width: 30%;
+  background: white;
+}
+
+/* Style the submit button */
+form.example button {
+  float: left;
+  width: 15%;
+  padding: 10px;
+  background: white;
+  color: gray;
+  font-size: 17px;
+  border: 2px solid black;
+  //border-radius: 8px;
+  border-left: none; /* Prevent double borders */
+  cursor: pointer;
+}
+
+form.example button:hover {
+  background: gray;
+  color:white;
+}
+
+.login{
+  margin-left: 37%;
+  padding: 5%;
+}
+.login button{
+  margin-left: 3%;
+  margin-top: 3%;
+}
+
+/* Clear floats */
+// form.example::after {
+//   content: "";
+//   clear: both;
+//   display: table;
+// }

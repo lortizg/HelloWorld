@@ -1,0 +1,64 @@
+<div class="cabecera">
+
+  <!-- Load icon library -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <!-- The form -->
+  <form class="example" action="action_page.php">
+   <input type="text" placeholder="Buscar..." name="search">
+   <button type="submit"><i class="fa fa-search"></i></button>
+  </form>
+
+  <h1>Hello World!</h1>
+  <a href="/login" id="login">Iniciar sesión</a>
+  <a style="display: none" id="logout" onclick='cerrarSesion()'>Cerrar sesión</a>
+</div>
+<div class="timeline" id="timeline">
+  <h2>Timeline</h2>
+  <div class="GrupoPosts">
+    <div class="post">
+      <div class="autor"><strong>Nombre de usuario</strong></div>
+      <div class="comentario"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p></div>
+      <div class="AbajoPost">
+        <div class="fechahora"><p>9/4/2021 10:16</p></div>
+        <div class="likes"><p><img src = 'https://i.pinimg.com/originals/cc/e9/a9/cce9a9a4a3d74bfce45f8b568d8c6e6d.png'/> 288 </p></div>
+      </div>
+    </div>
+    <hr>
+    <div class="post">
+      <div class="autor"><strong>Nombre de usuario</strong></div>
+      <div class="comentario"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p></div>
+      <div class="AbajoPost">
+        <div class="fechahora"><p>9/4/2021 10:16</p></div>
+        <div class="likes"><p><img src = 'https://i.pinimg.com/originals/cc/e9/a9/cce9a9a4a3d74bfce45f8b568d8c6e6d.png'/> 288 </p></div>
+      </div>
+    </div>
+    <hr>
+    <div class="post">
+      <div class="autor"><strong>Nombre de usuario</strong></div>
+      <div class="comentario"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p></div>
+      <div class="AbajoPost">
+        <div class="fechahora"><p>9/4/2021 10:16</p></div>
+        <div class="likes"><p><img src = 'https://i.pinimg.com/originals/cc/e9/a9/cce9a9a4a3d74bfce45f8b568d8c6e6d.png'/> 288 </p></div>
+      </div>
+    </div>
+    <hr>
+    <div class="post">
+      <div class="autor"><strong>Nombre de usuario</strong></div>
+      <div class="comentario"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p></div>
+      <div class="AbajoPost">
+        <div class="fechahora"><p>9/4/2021 10:16</p></div>
+        <div class="likes"><p><img src = 'https://i.pinimg.com/originals/cc/e9/a9/cce9a9a4a3d74bfce45f8b568d8c6e6d.png'/> 288 </p></div>
+      </div>
+    </div>
+  </div>
+
+  <button class="comm_but" id="comm_but" type="button" onclick='aparecer()'>Leave your comment!</button>
+
+</div>
+<footer>
+  <p>2021 - DS12</p>
+</footer>
+
+
+<%= javascript_pack_tag 'my_index' %>

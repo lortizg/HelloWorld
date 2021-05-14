@@ -1,0 +1,27 @@
+<div class="cabecera">
+  <h1>Hello World!</h1>
+
+  <!-- Load icon library -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <!-- The form -->
+  <form class="example" action="action_page.php">
+   <input type="text" placeholder="Buscar..." name="search">
+   <button type="submit"><i class="fa fa-search"></i></button>
+  </form>
+</div>
+<div class="login" >
+  <label for="luser">Username:</label><br>
+  <input type="text" id="user" name="luser"><br>
+  <label for="lpass">Password:</label><br>
+  <input type="text" id="pass" name="lpass"><br>
+
+  <button class="comm_but" id="comm_but" onclick='iniciarSesion()'>Iniciar Sesión</button>
+
+</div>
+<footer>
+  <p>2021 - DS12</p>
+</footer>
+
+
+<%= javascript_pack_tag 'my_index' %>
